@@ -1,0 +1,62 @@
+/*css for nav bar*/
+/* adj the logo */
+.logo{
+    width: 25%;
+    height: 10%;
+    object-fit: contain;
+}
+/*make language and shopping cart disapper while the screen size is big */
+.sm_only{
+    display: none ;
+}
+/*make language and shopping cart apper , adj the login and logo while the screen size is small */
+@media (max-width:990px) {
+    .sm-w-75{
+        max-width: 80%;
+    } 
+    .sm_only{
+        display: inline-block ;
+    }
+    
+    
+    .login{
+        padding: 10px 30px;
+        margin: 5px;
+        
+
+        
+    }
+    
+   
+}
+/*css for the hero section*/
+.item{
+    height: 400px;
+}
+.p-item{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+/*css for the menu*/
+.divider{
+    height: 0;
+    margin: 15px 0px;
+   
+    border-top: 3px solid #b80c04;
+   
+    width: 5%;
+  }
+.card-menu{
+    max-width: 500px;
+   
+    
+}
+  
+.card-hover:hover{
+margin: 2px;
+
+}
+footer{
+    margin-top: 200px;
+}

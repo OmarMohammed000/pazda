@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-5.3.0-dist/css/bootstrap.css">
+    <script src="bootstrap-5.3.0-dist/js/bootstrap.js"></script>
+    <script src="https://kit.fontawesome.com/9291c1d06a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/home.css">
+    <title>Pazda</title>
+</head>
+<body>
+    <!--the start of navgation bar-->
+ <nav class="navbar navbar-expand-lg bg-body-tertiary  ">
+    <!--making the nav color white and starting the contant of nav  -->
+      <div class="container-fluid  ">
+        
+        <a class="navbar-brand  fw-bolder mt-0 sm-w-75 " href="home.html"><img src="PICS/Pazda.png" alt="Pazda" class=" logo  img-fluid  "  ></a>
+        <!--making a button to collapse the nav-->
+        <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon "></span>
+        </button>
+        <div class="collapse navbar-collapse  " id="navbarNav">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 m-1 me-4 fs-5">
+            
+            <li class="nav-item me-3 ms-3 ">
+              <a class="nav-link text-capitalize  fw-bold btn btn-light" href="menu.html">explore menu</a>
+            </li>
+            <li class="nav-item me-3 ms-3 ">
+              <a class="nav-link text-capitalize fw-bold btn btn-light " href="home.html#location">locations</a>
+            </li>
+            
+
+            <hr class="sm_only  sep ">
+            <li class="nav-item ">
+              <a class="nav-link text-capitalize fw-bold btn-light btn" href="contact.html ">contact us </a>
+            </li>
+            <li class="nav-item me-3 ms-3 ">
+              <!-- Button trigger modal -->
+              <button type="button" class="btn btn-light nav-link text-capitalize fw-bold  me-auto ms-auto" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Feedback
+              </button>
+
+              <!-- Modal -->
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">Ratings and Feedback</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body text text-center">
+                       <span class="mb-5"> Please email us or call us to give a Feedback</span>
+                      
+                    </div>
+                    <div class="modal-footer">
+                      <a href="contact.html" class="btn btn-danger">contact us</a>
+                     
+                      <a href="menu.html" class="btn btn-danger">Explore our menu</a>
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <!--<li class="nav-item  me-3 ms-3  text-center">
+             
+              
+              <a class="nav-link fs-3  p-1 d-inline-block me-2 btn btn-light" href="shoppingcart.html">
+                  
+                  <i class="fa-solid fa-cart-shopping "></i></a>
+            </li>
+            
+            <li class="nav-item  text-center login-slot ms-3 ">
+              <a href="" class="nav-link btn btn-danger text-light me-2 rounded-3  login">Login</a></li>!-->
+          </ul>
+        </div>
+      </div>
+    </nav>
+<div class="container mt-5">
+    <div class="card text-center mt-5">
+        <div class="card-body">
+            <div class="card-title text-danger fs-4 fw-bold">
+                contact us
+            </div>
+            <div class="card-text text-light-emphasis">
+                To make an order or give Feedback or inqure about something do not heistate to call us or email us
+                <hr class="text-danger">
+                <p class="btn btn-light"><i class="fa-solid fa-phone me-2" style="color: #ff0000;"></i> 01202227762</p>
+                <div><p class="btn btn-light"><i class="me-2 fa-solid fa-envelope" style="color: #ff0000;"></i>Estodawy@Gmail.com</p></div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

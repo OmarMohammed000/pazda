@@ -1,0 +1,34 @@
+/*css for nav bar*/
+/* adj the logo */
+.logo{
+    width: 25%;
+    height: 10%;
+    object-fit: contain;
+}
+/*make language and shopping cart disapper while the screen size is big */
+.sm_only{
+    display: none ;
+}
+/*make language and shopping cart apper , adj the login and logo while the screen size is small */
+@media (max-width:990px) {
+    .sm-w-75{
+        max-width: 80%;
+    } 
+    .sm_only{
+        display: inline-block ;
+    }
+    
+    
+    .login{
+        padding: 10px 30px;
+        margin: 5px;
+        
+
+        
+    }
+   
+    i.fa-cart-shopping{
+        font-size: 45px;
+    }
+   
+}

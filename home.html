@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-5.3.0-dist/css/bootstrap.css">
+    <script src="bootstrap-5.3.0-dist/js/bootstrap.js"></script>
+    <script src="https://kit.fontawesome.com/9291c1d06a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/home.css">
+    <script>
+     
+   
+ 
+ 
+
+    </script>
+    
+    
+    <title>Pazda</title>
+    
+</head>
+<body class="">
+  <!--the start of navgation bar-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary  ">
+      <!--making the nav color white and starting the contant of nav  -->
+        <div class="container-fluid  ">
+          
+          <a class="navbar-brand  fw-bolder mt-0 sm-w-75 " href="home.html"><img src="PICS/Pazda.png" alt="Pazda" class=" logo  img-fluid  "  ></a>
+          <!--making a button to collapse the nav-->
+          <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon "></span>
+          </button>
+          <div class="collapse navbar-collapse  " id="navbarNav">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 m-1 me-4 fs-5">
+              
+              <li class="nav-item me-3 ms-3 ">
+                <a class="nav-link text-capitalize  fw-bold btn btn-light" href="menu.html">explore menu</a>
+              </li>
+              <li class="nav-item me-3 ms-3 ">
+                <a class="nav-link text-capitalize fw-bold btn btn-light " href="#location">locations</a>
+              </li>
+              
+
+              <hr class="sm_only  sep ">
+              <li class="nav-item ">
+                <a class="nav-link text-capitalize fw-bold btn-light btn" href="contact.html ">contact us </a>
+              </li>
+              <li class="nav-item me-3 ms-3 ">
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-light nav-link text-capitalize fw-bold  me-auto ms-auto" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  Feedback
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Ratings and Feedback</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body text text-center">
+                         <span class="mb-5"> Please email us or call us to give a Feedback</span>
+                        
+                      </div>
+                      <div class="modal-footer">
+                        <a href="contact.html" class="btn btn-danger">contact us</a>
+                       
+                        <a href="menu.html" class="btn btn-danger">Explore our menu</a>
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="nav-item  me-3 ms-3  text-center">
+               
+                
+                <a class="nav-link fs-3  p-1 d-inline-block me-2 btn btn-light" href="shoppingcart.html">
+                    
+                    <i class="fa-solid fa-cart-shopping "></i></a>
+              </li>
+              
+              <li class="nav-item  text-center login-slot ms-3 ">
+                <a href="" class="nav-link btn btn-danger login">Login</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!--start of the hero section /slide show-->
+      <!-- copy basic carousel example of boot strap -->
+      <div class="container mt-1 ">
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <!--this the part for next button-->
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <!-- start of the carousel contant-->
+        <div class="carousel-inner">
+          <div class="carousel-item active item">
+            <a href="">
+              <img src="PICS/eid offer 1.png" class="d-block  img-fluid p-item "  alt="offer one">
+            </a>
+           
+          </div>
+          <div class="carousel-item item">
+            <a href="">
+              <img src="PICS/eid offer 2.png" class="d-block  img-fluid p-item "  alt="offer one">
+            </a>
+            
+          </div>
+          <div class="carousel-item item">
+            <a href="">
+              <img src="PICS/eid offer 3.png" class="d-block  img-fluid p-item "  alt="offer two">
+            </a>
+            
+          </div>
+        </div>
+        <!--this the part for prev button-->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <div class="container mt-5"><div class="d-flex justify-content-between"><h3 class="fw-bolder ">Explore menu</h3>
+    <span class="text-primary fw-bold"><a href="menu.html"> view all 
+      <i class="fa-solid fa-arrow-right"></i></a>
+    </span>
+    </div>
+      <div class="divider"></div>
+    </div>
+    <div class="container  ">
+
+      
+      <div class="row menu-start">
+        <div class="col-md-3 d-flex align-content-center justify-content-center">
+          <a href="menu.html" class="btn  card-hover">
+          <div class="card shadow rounded-pill card-menu  ">
+            <span class="card-img-top pics_size  "><img src="PICS/estoda pic 3.jpg" alt="offers" class="img-fluid rounded-5 ">
+            </span>
+            <div class="card-body text-center fs-5 ">
+              <span class="card-title card-caption text-center ">Offers</span>
+             
+              
+              
+            </div>
+          </div>
+        </a>
+        </div>
+        <div class="col-md-3 d-flex align-content-center justify-content-center">
+          <a href="menu.html" class="btn  card-hover">
+          <div class="card shadow rounded-pill card-menu  ">
+            <span class="card-img-top pics_size  "><img src="PICS/estoa pic 4.jpg" alt="Pizza images" class="img-fluid rounded-5 "></span>
+            <div class="card-body text-center fs-5 ">
+              <span class="card-title card-caption text-center ">Pizza</span>
+            </div>
+          </div>
+        </a>
+        </div>
+        <div class="col-md-3 d-flex align-content-center justify-content-center ">
+          <a href="menu.html" class="btn  card-hover">
+          <div class="card shadow rounded-pill card-menu  ">
+            <span class="card-img-top pics_size  "><img src="PICS/estoda pic 5jpg.jpg" alt="Pasta images" class="img-fluid rounded-5 "></span>
+            <div class="card-body text-center fs-5 ">
+              <span class="card-title card-caption text-center ">Pasta</span>
+             
+              
+              
+            </div>
+          </div>
+        </a>
+        </div>
+        <div class="col-md-3 d-flex align-content-center justify-content-center ">
+          <a href="menu.html" class="btn  card-hover">
+          <div class="card shadow rounded-pill card-menu  ">
+            <span class="card-img-top pics_size  "><img src="PICS/estoda pic 6.jpg" alt="Dessert images" class="img-fluid rounded-5 "></span>
+            <div class="card-body text-center fs-5 ">
+              <span class="card-title card-caption text-center ">Dessert</span>
+             
+              
+              
+            </div>
+          </div>
+        </a>
+        </div>
+        
+        
+      </div>
+      
+    </div>
+    <div class="container mt-5 mb-5">
+      <div class=""id="location"><h3 class="fw-bolder ">Find pazda Nearby</h3>
+        <div class="divider"></div>
+
+    </div>
+    
+
+  <div class="row">
+    <div class="card-group " >
+      <div class="card p-1 shadow" >
+          
+          <div class="card-body  ">
+              <div class="card-title">
+               <span class="fw-bold fs-5"> cairo el hegaz</span>
+              </div>
+          
+              <div class="card-text ">
+                El Hegaz St, El-Nozha, El Nozha, Cairo Governorate 
+                <div class="fw-bold mb-1" >opening hours 12pm to 1am</div>
+                <hr>
+                <div class="d-flex justify-content-between mb-5"> 
+                  <a href="contact.html" class="btn btn-danger">
+                    place an order
+                   </a> 
+                 <a href="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d27612.695033979777!2d31.2965975!3d30.1060158!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x145815d9f07e69bd%3A0xe802ce3eceedfd30!2sEstoda%20cheese%20king%20-%20Heliopolis!5e0!3m2!1sen!2seg!4v1683050101981!5m2!1sen!2seg" class="btn btn-primary " id="cairo" target="frame"> show location</a>
+                </div>
+
+              </div>
+              
+              
+              <div class="card-title mt-5">
+                <span class="fw-bold fs-5"> Giza </span>
+               </div>
+           
+               <div class="card-text ">
+                 Al Fanan Salah Gahen, Gazirat Mit Oqbah, Agouza, Giza Governorate 
+                 <div class="fw-bold mb-1" >opening hours 12pm to 1am</div>
+                 <hr>
+                 <div class="d-flex justify-content-between"> 
+                 <a href="contact.html" class="btn btn-danger">
+                   place an order
+                  </a> 
+                  <a href="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d27624.826494189325!2d31.1656557!3d30.062573!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1458413faf47da6d%3A0x685db792b4eef30c!2sEstoda%20Cheese%20King!5e0!3m2!1sen!2seg!4v1683050020781!5m2!1sen!2seg" class="btn btn-primary show " id="giza" target="frame"> show location</a>
+                 </div>
+               </div>
+              
+          </div>
+          
+      </div>
+      <div class="card " >
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d431.44835990593407!2d31.334110849598687!3d30.106015799999987!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x145815d9f07e69bd%3A0xe802ce3eceedfd30!2sEstoda%20cheese%20king%20-%20Heliopolis!5e0!3m2!1sen!2seg!4v1682713300109!5m2!1sen!2seg" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" name="frame" ></iframe>
+      </div>        
+  </div>
+</div>
+</div>
+<footer class="container text-center bg-light"> 
+  <img src="PICS/Pazda 1.png" alt="Pazda">
+  <div class="text-light-emphasis">
+    All images and map links is from estoda and will provide the soical link down below
+  </div>
+  <div>
+    <a href="https://www.facebook.com/Estoda.eg" target="_blank"><i class="fa-brands fa-facebook fs-3"></i></a>
+    <a href="https://www.instagram.com/estoda.eg/"target="_blank"><i class="fa-brands fa-instagram fs-3"></i></a>
+    
+  </div>
+  <div>
+    <a href="menu.html" class="btn">Menu</a>
+    <a href="contact.html"class="btn">contact us</a>
+    
+  </div>
+  &#169; copyright
+</footer>
+  
+  
+</body>
+</html>
